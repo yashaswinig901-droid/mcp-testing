@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+!.env.example
+# Google credentials and tokens
+credentials.json
+gmail_token.json
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+# Node
+node_modules/
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
+# Logs
+*.log
